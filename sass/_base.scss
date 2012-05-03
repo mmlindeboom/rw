@@ -9,7 +9,7 @@ $col-width              : 60px;
 $gutter-width           : 10px;
 $side-gutter-width      : $gutter-width;
 
-$show-grid-backgrounds  : true;
+$show-grid-backgrounds  : false;
 
 
 // Variables ------------------------------------------------------------------
@@ -34,9 +34,9 @@ body {
 	}
 	
 
-	div, span, h1  {
+	/*div, span, h1  {
 			border:1px solid red !important;
-		}
+		}*/
 	
 html.ie7 .clearfix, html.ie6 .clearfix {
 	zoom: 1
