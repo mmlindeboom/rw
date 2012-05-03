@@ -16,9 +16,11 @@ body {
   height: 0;
 }
 
-/*div, span, h1  {
-		border:1px solid red !important;
-	}*/
+/* line 37, ../sass/_base.scss */
+div, span, h1 {
+  border: 1px solid red !important;
+}
+
 /* line 41, ../sass/_base.scss */
 html.ie7 .clearfix, html.ie6 .clearfix {
   zoom: 1;
@@ -92,6 +94,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Layout ------------------------------------------------------------------*/
 /* line 9, ../sass/screen.scss */
 #container {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1.176%, rgba(0, 0, 0, 0)), color-stop(1.176%, rgba(100, 100, 225, 0.25)), color-stop(8.235%, rgba(100, 100, 225, 0.25)), color-stop(8.235%, rgba(0, 0, 0, 0)), color-stop(9.412%, rgba(0, 0, 0, 0)), color-stop(9.412%, rgba(100, 100, 225, 0.25)), color-stop(16.471%, rgba(100, 100, 225, 0.25)), color-stop(16.471%, rgba(0, 0, 0, 0)), color-stop(17.647%, rgba(0, 0, 0, 0)), color-stop(17.647%, rgba(100, 100, 225, 0.25)), color-stop(24.706%, rgba(100, 100, 225, 0.25)), color-stop(24.706%, rgba(0, 0, 0, 0)), color-stop(25.882%, rgba(0, 0, 0, 0)), color-stop(25.882%, rgba(100, 100, 225, 0.25)), color-stop(32.941%, rgba(100, 100, 225, 0.25)), color-stop(32.941%, rgba(0, 0, 0, 0)), color-stop(34.118%, rgba(0, 0, 0, 0)), color-stop(34.118%, rgba(100, 100, 225, 0.25)), color-stop(41.176%, rgba(100, 100, 225, 0.25)), color-stop(41.176%, rgba(0, 0, 0, 0)), color-stop(42.353%, rgba(0, 0, 0, 0)), color-stop(42.353%, rgba(100, 100, 225, 0.25)), color-stop(49.412%, rgba(100, 100, 225, 0.25)), color-stop(49.412%, rgba(0, 0, 0, 0)), color-stop(50.588%, rgba(0, 0, 0, 0)), color-stop(50.588%, rgba(100, 100, 225, 0.25)), color-stop(57.647%, rgba(100, 100, 225, 0.25)), color-stop(57.647%, rgba(0, 0, 0, 0)), color-stop(58.824%, rgba(0, 0, 0, 0)), color-stop(58.824%, rgba(100, 100, 225, 0.25)), color-stop(65.882%, rgba(100, 100, 225, 0.25)), color-stop(65.882%, rgba(0, 0, 0, 0)), color-stop(67.059%, rgba(0, 0, 0, 0)), color-stop(67.059%, rgba(100, 100, 225, 0.25)), color-stop(74.118%, rgba(100, 100, 225, 0.25)), color-stop(74.118%, rgba(0, 0, 0, 0)), color-stop(75.294%, rgba(0, 0, 0, 0)), color-stop(75.294%, rgba(100, 100, 225, 0.25)), color-stop(82.353%, rgba(100, 100, 225, 0.25)), color-stop(82.353%, rgba(0, 0, 0, 0)), color-stop(83.529%, rgba(0, 0, 0, 0)), color-stop(83.529%, rgba(100, 100, 225, 0.25)), color-stop(90.588%, rgba(100, 100, 225, 0.25)), color-stop(90.588%, rgba(0, 0, 0, 0)), color-stop(91.765%, rgba(0, 0, 0, 0)), color-stop(91.765%, rgba(100, 100, 225, 0.25)), color-stop(98.824%, rgba(100, 100, 225, 0.25)), color-stop(98.824%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 1.176%, rgba(100, 100, 225, 0.25) 1.176%, rgba(100, 100, 225, 0.25) 8.235%, rgba(0, 0, 0, 0) 8.235%, rgba(0, 0, 0, 0) 9.412%, rgba(100, 100, 225, 0.25) 9.412%, rgba(100, 100, 225, 0.25) 16.471%, rgba(0, 0, 0, 0) 16.471%, rgba(0, 0, 0, 0) 17.647%, rgba(100, 100, 225, 0.25) 17.647%, rgba(100, 100, 225, 0.25) 24.706%, rgba(0, 0, 0, 0) 24.706%, rgba(0, 0, 0, 0) 25.882%, rgba(100, 100, 225, 0.25) 25.882%, rgba(100, 100, 225, 0.25) 32.941%, rgba(0, 0, 0, 0) 32.941%, rgba(0, 0, 0, 0) 34.118%, rgba(100, 100, 225, 0.25) 34.118%, rgba(100, 100, 225, 0.25) 41.176%, rgba(0, 0, 0, 0) 41.176%, rgba(0, 0, 0, 0) 42.353%, rgba(100, 100, 225, 0.25) 42.353%, rgba(100, 100, 225, 0.25) 49.412%, rgba(0, 0, 0, 0) 49.412%, rgba(0, 0, 0, 0) 50.588%, rgba(100, 100, 225, 0.25) 50.588%, rgba(100, 100, 225, 0.25) 57.647%, rgba(0, 0, 0, 0) 57.647%, rgba(0, 0, 0, 0) 58.824%, rgba(100, 100, 225, 0.25) 58.824%, rgba(100, 100, 225, 0.25) 65.882%, rgba(0, 0, 0, 0) 65.882%, rgba(0, 0, 0, 0) 67.059%, rgba(100, 100, 225, 0.25) 67.059%, rgba(100, 100, 225, 0.25) 74.118%, rgba(0, 0, 0, 0) 74.118%, rgba(0, 0, 0, 0) 75.294%, rgba(100, 100, 225, 0.25) 75.294%, rgba(100, 100, 225, 0.25) 82.353%, rgba(0, 0, 0, 0) 82.353%, rgba(0, 0, 0, 0) 83.529%, rgba(100, 100, 225, 0.25) 83.529%, rgba(100, 100, 225, 0.25) 90.588%, rgba(0, 0, 0, 0) 90.588%, rgba(0, 0, 0, 0) 91.765%, rgba(100, 100, 225, 0.25) 91.765%, rgba(100, 100, 225, 0.25) 98.824%, rgba(0, 0, 0, 0) 98.824%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 1.176%, rgba(100, 100, 225, 0.25) 1.176%, rgba(100, 100, 225, 0.25) 8.235%, rgba(0, 0, 0, 0) 8.235%, rgba(0, 0, 0, 0) 9.412%, rgba(100, 100, 225, 0.25) 9.412%, rgba(100, 100, 225, 0.25) 16.471%, rgba(0, 0, 0, 0) 16.471%, rgba(0, 0, 0, 0) 17.647%, rgba(100, 100, 225, 0.25) 17.647%, rgba(100, 100, 225, 0.25) 24.706%, rgba(0, 0, 0, 0) 24.706%, rgba(0, 0, 0, 0) 25.882%, rgba(100, 100, 225, 0.25) 25.882%, rgba(100, 100, 225, 0.25) 32.941%, rgba(0, 0, 0, 0) 32.941%, rgba(0, 0, 0, 0) 34.118%, rgba(100, 100, 225, 0.25) 34.118%, rgba(100, 100, 225, 0.25) 41.176%, rgba(0, 0, 0, 0) 41.176%, rgba(0, 0, 0, 0) 42.353%, rgba(100, 100, 225, 0.25) 42.353%, rgba(100, 100, 225, 0.25) 49.412%, rgba(0, 0, 0, 0) 49.412%, rgba(0, 0, 0, 0) 50.588%, rgba(100, 100, 225, 0.25) 50.588%, rgba(100, 100, 225, 0.25) 57.647%, rgba(0, 0, 0, 0) 57.647%, rgba(0, 0, 0, 0) 58.824%, rgba(100, 100, 225, 0.25) 58.824%, rgba(100, 100, 225, 0.25) 65.882%, rgba(0, 0, 0, 0) 65.882%, rgba(0, 0, 0, 0) 67.059%, rgba(100, 100, 225, 0.25) 67.059%, rgba(100, 100, 225, 0.25) 74.118%, rgba(0, 0, 0, 0) 74.118%, rgba(0, 0, 0, 0) 75.294%, rgba(100, 100, 225, 0.25) 75.294%, rgba(100, 100, 225, 0.25) 82.353%, rgba(0, 0, 0, 0) 82.353%, rgba(0, 0, 0, 0) 83.529%, rgba(100, 100, 225, 0.25) 83.529%, rgba(100, 100, 225, 0.25) 90.588%, rgba(0, 0, 0, 0) 90.588%, rgba(0, 0, 0, 0) 91.765%, rgba(100, 100, 225, 0.25) 91.765%, rgba(100, 100, 225, 0.25) 98.824%, rgba(0, 0, 0, 0) 98.824%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 1.176%, rgba(100, 100, 225, 0.25) 1.176%, rgba(100, 100, 225, 0.25) 8.235%, rgba(0, 0, 0, 0) 8.235%, rgba(0, 0, 0, 0) 9.412%, rgba(100, 100, 225, 0.25) 9.412%, rgba(100, 100, 225, 0.25) 16.471%, rgba(0, 0, 0, 0) 16.471%, rgba(0, 0, 0, 0) 17.647%, rgba(100, 100, 225, 0.25) 17.647%, rgba(100, 100, 225, 0.25) 24.706%, rgba(0, 0, 0, 0) 24.706%, rgba(0, 0, 0, 0) 25.882%, rgba(100, 100, 225, 0.25) 25.882%, rgba(100, 100, 225, 0.25) 32.941%, rgba(0, 0, 0, 0) 32.941%, rgba(0, 0, 0, 0) 34.118%, rgba(100, 100, 225, 0.25) 34.118%, rgba(100, 100, 225, 0.25) 41.176%, rgba(0, 0, 0, 0) 41.176%, rgba(0, 0, 0, 0) 42.353%, rgba(100, 100, 225, 0.25) 42.353%, rgba(100, 100, 225, 0.25) 49.412%, rgba(0, 0, 0, 0) 49.412%, rgba(0, 0, 0, 0) 50.588%, rgba(100, 100, 225, 0.25) 50.588%, rgba(100, 100, 225, 0.25) 57.647%, rgba(0, 0, 0, 0) 57.647%, rgba(0, 0, 0, 0) 58.824%, rgba(100, 100, 225, 0.25) 58.824%, rgba(100, 100, 225, 0.25) 65.882%, rgba(0, 0, 0, 0) 65.882%, rgba(0, 0, 0, 0) 67.059%, rgba(100, 100, 225, 0.25) 67.059%, rgba(100, 100, 225, 0.25) 74.118%, rgba(0, 0, 0, 0) 74.118%, rgba(0, 0, 0, 0) 75.294%, rgba(100, 100, 225, 0.25) 75.294%, rgba(100, 100, 225, 0.25) 82.353%, rgba(0, 0, 0, 0) 82.353%, rgba(0, 0, 0, 0) 83.529%, rgba(100, 100, 225, 0.25) 83.529%, rgba(100, 100, 225, 0.25) 90.588%, rgba(0, 0, 0, 0) 90.588%, rgba(0, 0, 0, 0) 91.765%, rgba(100, 100, 225, 0.25) 91.765%, rgba(100, 100, 225, 0.25) 98.824%, rgba(0, 0, 0, 0) 98.824%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 1.176%, rgba(100, 100, 225, 0.25) 1.176%, rgba(100, 100, 225, 0.25) 8.235%, rgba(0, 0, 0, 0) 8.235%, rgba(0, 0, 0, 0) 9.412%, rgba(100, 100, 225, 0.25) 9.412%, rgba(100, 100, 225, 0.25) 16.471%, rgba(0, 0, 0, 0) 16.471%, rgba(0, 0, 0, 0) 17.647%, rgba(100, 100, 225, 0.25) 17.647%, rgba(100, 100, 225, 0.25) 24.706%, rgba(0, 0, 0, 0) 24.706%, rgba(0, 0, 0, 0) 25.882%, rgba(100, 100, 225, 0.25) 25.882%, rgba(100, 100, 225, 0.25) 32.941%, rgba(0, 0, 0, 0) 32.941%, rgba(0, 0, 0, 0) 34.118%, rgba(100, 100, 225, 0.25) 34.118%, rgba(100, 100, 225, 0.25) 41.176%, rgba(0, 0, 0, 0) 41.176%, rgba(0, 0, 0, 0) 42.353%, rgba(100, 100, 225, 0.25) 42.353%, rgba(100, 100, 225, 0.25) 49.412%, rgba(0, 0, 0, 0) 49.412%, rgba(0, 0, 0, 0) 50.588%, rgba(100, 100, 225, 0.25) 50.588%, rgba(100, 100, 225, 0.25) 57.647%, rgba(0, 0, 0, 0) 57.647%, rgba(0, 0, 0, 0) 58.824%, rgba(100, 100, 225, 0.25) 58.824%, rgba(100, 100, 225, 0.25) 65.882%, rgba(0, 0, 0, 0) 65.882%, rgba(0, 0, 0, 0) 67.059%, rgba(100, 100, 225, 0.25) 67.059%, rgba(100, 100, 225, 0.25) 74.118%, rgba(0, 0, 0, 0) 74.118%, rgba(0, 0, 0, 0) 75.294%, rgba(100, 100, 225, 0.25) 75.294%, rgba(100, 100, 225, 0.25) 82.353%, rgba(0, 0, 0, 0) 82.353%, rgba(0, 0, 0, 0) 83.529%, rgba(100, 100, 225, 0.25) 83.529%, rgba(100, 100, 225, 0.25) 90.588%, rgba(0, 0, 0, 0) 90.588%, rgba(0, 0, 0, 0) 91.765%, rgba(100, 100, 225, 0.25) 91.765%, rgba(100, 100, 225, 0.25) 98.824%, rgba(0, 0, 0, 0) 98.824%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 1.176%, rgba(100, 100, 225, 0.25) 1.176%, rgba(100, 100, 225, 0.25) 8.235%, rgba(0, 0, 0, 0) 8.235%, rgba(0, 0, 0, 0) 9.412%, rgba(100, 100, 225, 0.25) 9.412%, rgba(100, 100, 225, 0.25) 16.471%, rgba(0, 0, 0, 0) 16.471%, rgba(0, 0, 0, 0) 17.647%, rgba(100, 100, 225, 0.25) 17.647%, rgba(100, 100, 225, 0.25) 24.706%, rgba(0, 0, 0, 0) 24.706%, rgba(0, 0, 0, 0) 25.882%, rgba(100, 100, 225, 0.25) 25.882%, rgba(100, 100, 225, 0.25) 32.941%, rgba(0, 0, 0, 0) 32.941%, rgba(0, 0, 0, 0) 34.118%, rgba(100, 100, 225, 0.25) 34.118%, rgba(100, 100, 225, 0.25) 41.176%, rgba(0, 0, 0, 0) 41.176%, rgba(0, 0, 0, 0) 42.353%, rgba(100, 100, 225, 0.25) 42.353%, rgba(100, 100, 225, 0.25) 49.412%, rgba(0, 0, 0, 0) 49.412%, rgba(0, 0, 0, 0) 50.588%, rgba(100, 100, 225, 0.25) 50.588%, rgba(100, 100, 225, 0.25) 57.647%, rgba(0, 0, 0, 0) 57.647%, rgba(0, 0, 0, 0) 58.824%, rgba(100, 100, 225, 0.25) 58.824%, rgba(100, 100, 225, 0.25) 65.882%, rgba(0, 0, 0, 0) 65.882%, rgba(0, 0, 0, 0) 67.059%, rgba(100, 100, 225, 0.25) 67.059%, rgba(100, 100, 225, 0.25) 74.118%, rgba(0, 0, 0, 0) 74.118%, rgba(0, 0, 0, 0) 75.294%, rgba(100, 100, 225, 0.25) 75.294%, rgba(100, 100, 225, 0.25) 82.353%, rgba(0, 0, 0, 0) 82.353%, rgba(0, 0, 0, 0) 83.529%, rgba(100, 100, 225, 0.25) 83.529%, rgba(100, 100, 225, 0.25) 90.588%, rgba(0, 0, 0, 0) 90.588%, rgba(0, 0, 0, 0) 91.765%, rgba(100, 100, 225, 0.25) 91.765%, rgba(100, 100, 225, 0.25) 98.824%, rgba(0, 0, 0, 0) 98.824%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
@@ -208,120 +217,133 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
 }
 
-@media screen and (max-width: 960px) {
-  /* line 118, ../sass/screen.scss */
-  .header #logo {
-    display: block;
-    width: 75%;
-    margin: 0 1.04%;
-  }
-  /* line 122, ../sass/screen.scss */
-  .header #logo img {
-    max-width: 100%;
-  }
-  /* line 125, ../sass/screen.scss */
-  .header #logo a {
-    position: relative;
-    left: 8.333%;
-    font-family: Futura, Arial, sans-serif;
-    font-size: 2.5em;
-    color: #311811;
-    text-decoration: none;
-  }
+/*	@media screen and (max-width: 960px) {
+		.header {
+			#logo {
+				display:block;
+				width:75%;
+				margin:0 1.04%;
+				img {
+					max-width:100%;
+				}
+				a {
+					position:relative;
+					left:8.333%;
+					font-family: Futura, Arial, sans-serif;
+					font-size:2.5em;
+					color:$primary-color;
+					text-decoration:none;
+				}
+			}
+		}
+		
+		.content {
+			.main {
+				.article {
+					h2 {
+						font-size:2em;
+					}
+				}
+			}
+		}
+	
+	} 
+	
+	@media screen and (max-width: 768px) {
+		.header {
+			#logo {
+				display:block;
+				width:100%;
+				margin:0;
+				img {
+					width:97px;
+				    position:relative; 
+		            left:40%;
+				}
+				a {
 
-  /* line 139, ../sass/screen.scss */
-  .content .main .article h2 {
-    font-size: 2em;
-  }
-}
-/*end media 960px */
-@media screen and (max-width: 768px) {
-  /* line 150, ../sass/screen.scss */
-  .header #logo {
-    display: block;
-    width: 100%;
-    margin: 0;
-  }
-  /* line 154, ../sass/screen.scss */
-  .header #logo img {
-    width: 97px;
-    position: relative;
-    left: 40%;
-  }
-  /* line 159, ../sass/screen.scss */
-  .header #logo a {
-    display: block;
-    margin-left: 20%;
-    font-family: Futura, Arial, sans-serif;
-    font-size: 2em;
-    color: #311811;
-    text-decoration: none;
-  }
-  /* line 169, ../sass/screen.scss */
-  .header .description {
-    display: none;
-  }
+					display:block;
+					margin-left: 20%;
+					font-family: Futura, Arial, sans-serif;
+					font-size:2em;
+					color:$primary-color;
+					text-decoration:none;
+				}
+			}
+			.description {
+				display:none;
+			}
+		}
+		
+		.content {
+			.main {
+				.date {
+				 font-size:1em;
+				}
+				.article {
+					h2 {
+						font-size:1.25em;
+					}
+				}
+			}
+			.other {
+			ul {
+			 li {
+				 a {
+					font-size:0.75em;
+				}
+			 }
+			}
+			
+		}
+	}
+	
+	} 
+	
+	
+	
+		@media screen and (max-width: 520px) {
+		.header {
+			#logo {
+				display:block;
+				width:100%;
+				margin:0;
+				img {
+					width:97px;
+				    position:relative; 
+		            left:35%;
+				}
+				a {
 
-  /* line 176, ../sass/screen.scss */
-  .content .main .date {
-    font-size: 1em;
-  }
-  /* line 180, ../sass/screen.scss */
-  .content .main .article h2 {
-    font-size: 1.25em;
-  }
-  /* line 188, ../sass/screen.scss */
-  .content .other ul li a {
-    font-size: 0.75em;
-  }
-}
-/*end media 768px */
-@media screen and (max-width: 520px) {
-  /* line 203, ../sass/screen.scss */
-  .header #logo {
-    display: block;
-    width: 100%;
-    margin: 0;
-  }
-  /* line 207, ../sass/screen.scss */
-  .header #logo img {
-    width: 97px;
-    position: relative;
-    left: 35%;
-  }
-  /* line 212, ../sass/screen.scss */
-  .header #logo a {
-    display: block;
-    margin-left: 5%;
-    font-family: Futura, Arial, sans-serif;
-    font-size: 2em;
-    color: #311811;
-    text-decoration: none;
-  }
-  /* line 222, ../sass/screen.scss */
-  .header .description {
-    display: none;
-  }
-
-  /* line 228, ../sass/screen.scss */
-  .content .main {
-    width: 100%;
-  }
-  /* line 230, ../sass/screen.scss */
-  .content .main .date {
-    display: none;
-  }
-  /* line 233, ../sass/screen.scss */
-  .content .main .article {
-    width: 100%;
-  }
-  /* line 235, ../sass/screen.scss */
-  .content .main .article h2 {
-    text-align: center;
-  }
-  /* line 240, ../sass/screen.scss */
-  .content .other {
-    display: none;
-  }
-}
-/*end media 768px */
+					display:block;
+					margin-left: 5%;
+					font-family: Futura, Arial, sans-serif;
+					font-size:2em;
+					color:$primary-color;
+					text-decoration:none;
+				}
+			}
+			.description {
+				display:none;
+			}
+		}
+		
+		.content {
+			.main {
+			width:100%;
+				.date {
+				 display:none;
+				}
+				.article {
+				width: 100%;
+				h2 {
+				text-align:center;
+				}
+				}
+			}
+			.other {
+			display:none;
+			}
+	}
+	
+	} */
