@@ -1,0 +1,44 @@
+// Imports -------------------------------------------------------------------
+
+@import "susy";
+
+// Grid ----------------------------------------------------------------------
+
+$total-cols             : 12;
+$col-width              : 60px;
+$gutter-width           : 10px;
+$side-gutter-width      : $gutter-width;
+
+$show-grid-backgrounds  : true;
+
+
+// Variables ------------------------------------------------------------------
+$primary-color: #311811;
+
+// Defaults ----------------------------------------------------------------------
+
+body {
+	font-family: Arial;
+	font-size:100%;
+	color:$primary-color;
+	line-height:1.2px;
+	}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+	
+
+	div, span, h1  {
+			border:1px solid red !important;
+		}
+	
+html.ie7 .clearfix, html.ie6 .clearfix {
+	zoom: 1
+	}
+

@@ -1,0 +1,187 @@
+// Imports -------------------------------------------------------------------
+
+@import "base";
+@import "compass/reset";
+
+/* Layout ------------------------------------------------------------------*/
+
+
+#container {
+ //@include container;
+  @include susy-grid-background;
+  width:90%;
+  max-width:960px;
+  margin: 0 auto;
+}
+
+.header {
+	#logo {
+		display:block;
+		width:75%;
+		margin:0 1.04%;
+		img {
+			max-width:100%;
+		}
+		a {
+			position:relative;
+			left:8.333%;
+			font-family: Futura, Arial, sans-serif;
+			font-size:3.5em;
+			color:$primary-color;
+			text-decoration:none;
+		}
+	}
+	
+	.description {
+	margin:0 1.04%;
+	padding-top:53px;
+	display:block;
+	width:22.39%; /* 215px / 960px */
+	float:right;
+	font-size:0.625em;
+	font-family:Arial;
+	line-height:1.5;
+	}
+
+}
+
+
+.content {
+	margin:40px 0;
+	.main {
+	    float:left;
+	    width:75%; /*720px / 960px; */
+		.date {
+			float:left;
+			width:20%; /* 144px / 720px */
+			margin: 0 1.04%;	
+			font-family:Futura;
+			font-size: 1.125em;
+			color:$primary-color;
+			text-align:center;
+			}
+		.article {
+			float:right;
+			width:75%; /*720px / 960px */
+			margin:0 1.04%;
+			font-family: Arial;
+			font-size: 1em;
+			line-height:1.5;
+			h2 {
+				font-family: Futura;
+				font-size:  2.25em;
+			}
+			img {
+				margin: 10px 0;
+				max-width:100%;
+				}
+			p {
+				margin: 10px 0;
+				}
+		}
+	
+	}
+	.other {
+	    display:block;
+		float:right; 	
+		width:22.395%; /* 215px / 960px */
+		margin:0 1.04%;
+		ul {
+			margin-top:25px;
+			li {
+				margin:15px;
+				a {
+					font:14px Arial;
+					color: $primary-color;
+				}
+			}	
+		}
+	}
+
+}
+
+.footer {
+	width:100%;
+	h2 {
+		font-family:Futura;
+		font-size:3em;
+		color: $primary-color;
+		text-align:center;
+	}
+}
+
+
+
+
+	@media screen and (max-width: 960px) {
+		.header {
+			#logo {
+				display:block;
+				width:75%;
+				margin:0 1.04%;
+				img {
+					max-width:100%;
+				}
+				a {
+					position:relative;
+					left:8.333%;
+					font-family: Futura, Arial, sans-serif;
+					font-size:2.5em;
+					color:$primary-color;
+					text-decoration:none;
+				}
+			}
+		}
+		
+		.content {
+			.main {
+				.article {
+					h2 {
+						font-size:2em;
+					}
+				}
+			}
+		}
+	
+	} /*end media 960px */
+	
+	@media screen and (max-width: 768px) {
+		.header {
+			#logo {
+				display:block;
+				width:100%;
+				margin:0;
+				img {
+					width:97px;
+				    position:relative; 
+		            left:40%;
+				}
+				a {
+
+					display:block;
+					margin-left: 20%;
+					font-family: Futura, Arial, sans-serif;
+					font-size:2em;
+					color:$primary-color;
+					text-decoration:none;
+				}
+			}
+			.description {
+				display:none;
+			}
+		}
+		
+		.content {
+			.main {
+				.date {
+				 font-size:1em;
+				}
+				.article {
+					h2 {
+						font-size:1.25em;
+					}
+				}
+			}
+		}
+	
+	} /*end media 768px */
